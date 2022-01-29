@@ -1,2 +1,2 @@
-# Practica-2
+# Practica 2
 Práctica 2
