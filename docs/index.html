@@ -1,10 +1,79 @@
 <!doctype html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Melia Hotels & Resorts</title>
     <meta charset="utf-8">
 </head>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 <body>
-    Hello World
+    <p>
+        <center> <img src="MeliaLogo.jpeg" width="25%" height="25%">
+        </center>
+        <div class="terms">
+            <center>
+                <a href="./CheckInOnline.html" style="font-family: 'Open Sans'"> <img src="maleta.png" width="1.4%" height="1.4%"> CHECK-IN ONLINE </a>
+                |
+                <a href="./InicioSesion.html" style="font-family: 'Open Sans'" > <img src="usuario.png" width="1.4%" height="1.4%"> INICIO DE SESIÓN </a>
+                |
+                <a style="font-family: 'Open Sans'"> <img src="telefono.png" width="1.4%" height="1.4%"> 91-276-4747 </a>
+            </center>
+        </div>
+    </p>
+
+    <center>
+        <img src="MeliaImage.jpg"
+             style="object-fit:fill;
+            width:775px;
+            height:475px;
+            border: solid 1px #CCC"/>
+    </center>
+
+    <form action="/action_page.php" method="post" enctype="application/x-www-form-urlencoded">
+        <center>
+            <fieldset style="width:750px; border:1px solid #4238ca; background:#f6f8ff;">
+                <legend style="font-family: 'Open Sans'">Alójese en su paraíso perfecto:</legend>
+                    <label for="destino" style="font-family: 'Open Sans'" >Seleccione un destino:</label>
+                        <select name="destino" id="destino">
+                            <optgroup label="Europa">
+                                <option value="mad">Madrid</option>
+                                <option value="lod">Londres</option>
+                                <option value="par">París</option>
+                            </optgroup>
+                            <optgroup label="Ámerica del Norte">
+                                <option value="nyc">Nueva York</option>
+                                <option value="chi">Chicago</option>
+                                <option value="lax">Los Ángeles</option>
+                            </optgroup>
+                            <optgroup label="Ámerica del Sur">
+                                <option value="lim">Lima</option>
+                                <option value="sdc">Santiago de Chile</option>
+                                <option value="bai">Buenos Aires</option>
+                            </optgroup>
+                            <optgroup label="Asia y Oceanía">
+                                <option value="dub">Dubai</option>
+                                <option value="sin">Singapur</option>
+                                <option value="syd">Sydney</option>
+                            </optgroup>
+                        </select>
+                    <div class="grid">
+                        <div class="col-1-4 col-1-4-sm">
+                            <div class="controls">
+                                <label for="arrive" class="label-date" style="font-family: 'Open Sans'" ><i class="fa fa-calendar"></i>&nbsp;&nbsp;Fecha de entrada</label>
+                                <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>">
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-sm">
+                            <div class="controls">
+                                <label for="depart" class="label-date" style="font-family: 'Open Sans'" ><i class="fa fa-calendar"></i>&nbsp;&nbsp;Fecha de salida </label>
+                                <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+                            </div>
+                        </div>
+                    </div>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </center>
+    </form>
+
 </body>
 </html>
