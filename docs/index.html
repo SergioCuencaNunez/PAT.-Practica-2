@@ -1,24 +1,20 @@
 <!doctype html>
 <html>
 <head>
-    <title>Melia Hotels & Resorts</title>
+    <title>Meliá Hotels & Resorts</title>
     <meta charset="utf-8">
 </head>
 <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 <body>
-    <p>
-        <center> <img src="MeliaLogo.jpeg" width="25%" height="25%">
+    <center> <a href="./index.html" style="font-family: 'Open Sans'"> <img src="MeliaLogo.jpeg" width="25%" height="25%">
+    </center>
+    <div class="terms">
+        <center>
+            <a href="./CheckInOnline.html" style="font-family: 'Open Sans'"> <img src="maleta.png" width="20" height="20"> CHECK-IN ONLINE </a>
+            <a href="./InicioSesion.html" style="font-family: 'Open Sans'" > <img src="usuario.png" width="20" height="20"> INICIO DE SESIÓN </a>
+            <a style="font-family: 'Open Sans'"> <img src="telefono.png" width="20" height="20"> 91-276-4747 </a>
         </center>
-        <div class="terms">
-            <center>
-                <a href="./CheckInOnline.html" style="font-family: 'Open Sans'"> <img src="maleta.png" width="1.4%" height="1.4%"> CHECK-IN ONLINE </a>
-                |
-                <a href="./InicioSesion.html" style="font-family: 'Open Sans'" > <img src="usuario.png" width="1.4%" height="1.4%"> INICIO DE SESIÓN </a>
-                |
-                <a style="font-family: 'Open Sans'"> <img src="telefono.png" width="1.4%" height="1.4%"> 91-276-4747 </a>
-            </center>
-        </div>
-    </p>
+    </div><br>
 
     <center>
         <img src="MeliaImage.jpg"
@@ -31,8 +27,8 @@
     <form action="/action_page.php" method="post" enctype="application/x-www-form-urlencoded">
         <center>
             <fieldset style="width:750px; border:1px solid #4238ca; background:#f6f8ff;">
-                <legend style="font-family: 'Open Sans'">Alójese en su paraíso perfecto:</legend>
-                    <label for="destino" style="font-family: 'Open Sans'" >Seleccione un destino:</label>
+                <legend style="font-family: 'Open Sans'">Alójese en su paraíso perfecto: </legend>
+                    <label for="destino" style="font-family: 'Open Sans'" >Seleccione un destino: </label>
                         <select name="destino" id="destino">
                             <optgroup label="Europa">
                                 <option value="mad">Madrid</option>
@@ -59,21 +55,101 @@
                         <div class="col-1-4 col-1-4-sm">
                             <div class="controls">
                                 <label for="arrive" class="label-date" style="font-family: 'Open Sans'" ><i class="fa fa-calendar"></i>&nbsp;&nbsp;Fecha de entrada</label>
-                                <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>">
+                                <input type="date" id="arrive" class="floatLabel" required="required" name="arrive" value="<?php echo date('Y-m-d'); ?>">
                             </div>
                         </div>
                         <div class="col-1-4 col-1-4-sm">
                             <div class="controls">
                                 <label for="depart" class="label-date" style="font-family: 'Open Sans'" ><i class="fa fa-calendar"></i>&nbsp;&nbsp;Fecha de salida </label>
-                                <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+                                <input type="date" id="depart" class="floatLabel" required="required" name="depart" value="<?php echo date('Y-m-d'); ?>" />
                             </div>
                         </div>
                     </div>
-
-                <input type="submit" value="Submit">
+                    <label for="personas" style="font-family: 'Open Sans'" >Número de personas:</label>
+                    <select name="personas" id="personas">
+                        <optgroup label="Adultos">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </optgroup>
+                        <optgroup label="Niños">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </optgroup>
+                    </select><br>
+                    <label for="habitaciones" style="font-family: 'Open Sans'" >Número de habitaciones: </label>
+                    <select name="habitaciones" id="habitaciones">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select><br>
+                <input type="submit" value="Buscar">
             </fieldset>
         </center>
-    </form>
+    </form><br>
+
+    <div class="terms">
+        <center>
+            <a href="./MeliaRewardsAdvantages.html" style="font-family: 'Open Sans'"> <img src="MeliaRewards.png" style="object-fit:fill;
+            width:775px; height:125px;"/> </a>
+        </center>
+    </div>
+
+    <div class="terms">
+        <center>
+            <a href="./MeliaRewardsRegister.html" style="font-family: 'Open Sans'"> QUIERO SER MELIÁREWARDS </a>
+            |
+            <a href="./InicioSesion.html" style="font-family: 'Open Sans'" > ¿YA ERES MIEMBRO?: INICIA SESIÓN </a>
+        </center>
+    </div><br>
+
+    <center>
+        <h1 style="font-family: 'Open Sans'"> MÁS DE 350 HOTELES EN 40 PAÍSES</h1>
+        <div style="width: 100%">
+        <iframe width="775" height="475" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12150.257712835712!2d-3.7097205381981304!3d40.41849911496838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMelia%20Hotels%20and%20Resorts!5e0!3m2!1ses!2ses!4v1643584084286!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+
+        <h1 style="font-family: 'Open Sans'"> MÁS OPCIONES</h1>
+        <figure>
+            <a href="https://www2.melia.com/meliapro/es/index.html">
+            <img src="MeliaPro.png" width="300" height="175" style = "border: solid 1px #CCC"></a>
+            <figcaption style="font-family: 'Open Sans'">El Portal exclusivo para agentes de viajes en el que conseguirás <br> comisiones más competitivas y descuentos especiales <br> en todas nuestras tarifas.</figcaption>
+        </figure>
+        <figure>
+            <a href="https://www.americanexpress.com/es-es/tarjetas/tarjetas-de-cargo/tarjeta-mas-gold/">
+                <img src="MeliaAmerican.png" width="300" height="175" style = "border: solid 1px #CCC"></a>
+            <figcaption style="font-family: 'Open Sans'">35,000 PUNTOS MELIÁREWARDS DE BIENVENIDA. Solicita la Tarjeta <br> American Express MeliáRewards y convierte tus compras en <br> noches de hotel. 1€ de gasto = 3 puntos MeliáRewards.</figcaption>
+        </figure>
+        <figure>
+            <a href="https://landings.melia.com/es/descarga-app.html?utm_medium=meliacom&utm_source=modulodescarga">
+                <img src="MeliaApp.png" width="300" height="175" style = "border: solid 1px #CCC"></a>
+            <figcaption style="font-family: 'Open Sans'">Reserva estancias en nuestros hoteles, haz el check in online,<br> entra en tu habitación con la llave digital, realiza <br> peticiones y reservas, comunícate con el hotel a <br> través de nuestro chat y mucho más.</figcaption>
+        </figure>
+
+    <h1 style="font-family: 'Open Sans'"> NO TE PIERDAS NUESTRAS PROMOCIONES</h1>
+            <form action="/action_page1.php" method="post" enctype="application/x-www-form-urlencoded">
+                <fieldset style="width:750px; border:1px solid #4238ca; background:#f6f8ff;">
+                    <legend style="font-family: 'Open Sans'">Suscríbete a nuestro boletín y recibe nuestras mejores ofertas y descuentos: </legend>
+                        <input type="text" id="email" required="required" style="font-family: 'Open Sans'" placeholder="Introduce tu email" size="50"></input>
+                    <input type="submit" value="Suscríbete">
+                </fieldset>
+    </form><br>
+
+    <h1 style="font-family: 'Open Sans'"> DESCUBRE NUESTRAS MARCAS</h1>
+        <a href="./MeliaBrands.html"> <img src="MeliaBrands2.png" style="object-fit:fill; width:950px; height:80px;"/> </a>
+    </center>
+
+    <div class="terms">
+        <center>
+            <a href="https://twitter.com/MeliaHtlResorts"><img src="gorjeo.png" width="2%" height="1.4%"></a>
+            <a href="https://www.facebook.com/Melia.Hotels?fref=ts"><img src="facebook.png" width="2%" height="1.4%"></a>
+            <a href="https://instagram.com/meliahtlresorts/"><img src="instagram.png" width="2%" height="1.4%"></a>
+            <a href="https://www.youtube.com/channel/UCIslJhf4yPT7UMMPrHIa94w"> <img src="youtube.png" width="2%" height="2%"></a>
+        </center>
+    </div><br>
 
 </body>
 </html>
