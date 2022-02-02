@@ -1,5 +1,6 @@
 # Práctica 2. Creación de página web en HTML Puro
 
+
 ### Página principal: ``index.html``
 La página web consta de 5 sub-páginas todas ellas interconectadas. La página principal es ``index.html``y tiene 4 secciones. La primera contiene la cabecera, una imagen simple, un formulario y otra imagen capaz de redireccionar a la página ``MeliaRewardsAdvantages.html``. La segunda sección contiene un mapa en el que se muestran los hoteles cercanos, en este caso, en Madrid. La tercera contiene una serie de imágenes, también redireccionables a su respectivo sitio web (externos a la página creada) y otro formulario de suscripción a boletín de noticias. Por último, la última sección incluye una imagen direccionable a ``MeliaBrands.html``, con todas las marcas de la firma y un icono para cada red social, también redireccionable a dichas redes sociales. Todos los formularios contienen validación de los campos para que sean completados.
 
