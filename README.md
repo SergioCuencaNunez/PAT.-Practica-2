@@ -7,17 +7,17 @@ La página web consta de 5 sub-páginas todas ellas interconectadas. La página 
 
 Tanto la cabecera como la cuarta sección (marcas y redes sociales) se incluyen en todas las sub-páginas para dar uniformidad a todo el sitio web y poder dirigirse a dichos enlaces en cualquier sub-página. Clicando la cabecera en cualquiera de las sub-páginas, se es dirigido a esta página principal.
 
-#### Sub-página 1: ``CheckInOnline.html``
+* #### Sub-página 1: ``CheckInOnline.html``
 Esta sub-página se divide en 3 secciones. La primera incluyendo la cabecera y el formulario para el check-in online, la segunda en la que se encuentra una tabla con imágenes y texto explicativo. Nuevamente en este formulario todos los campos incluyen su respectiva validación
 
-#### Sub-página 2: ``InicioSesion.html``
+* #### Sub-página 2: ``InicioSesion.html``
 Esta es la sub-página más sencilla de todas, ya que se incluye solo el formulario para iniciar sesión en la cuenta de Meliá con su validación correspondiente para cada campo. Caben resaltar los botones de Facebook y Google que permiten iniciar sesión con dichas plataformas en la cuenta de Meliá.
 
-#### Sub-página 3: ``MeliaRewardsAdvantages.html``
+* #### Sub-página 3: ``MeliaRewardsAdvantages.html``
 Aunque parece la más compleja de todas, esta sub-página incluye tres secciones. La primera contiene las imágenes en las que se describen las ventajas de MeliáRewards. La segunda vuelve a incluir otra tabla con imágenes y texto explicativo.
 
-#### Sub-página 4: ``MeliaRewardsRegister.html``
+* #### Sub-página 4: ``MeliaRewardsRegister.html``
 Esta página incluye también una única sección en la que se muestra un formulario dividido en tres sub-secciones para registrar una cuenta en el programa de MeliáRewards. Se incluyen también dos checkboxes de confirmación sobre los Términos y condiciones.
 
-#### Sub-página 5: ``MeliaRewardsBrands.html``
+* #### Sub-página 5: ``MeliaRewardsBrands.html``
 En esta última página, con una sección, se describen todos los hoteles del grupo en los que se incluye para cada marca una imagen y una breve descripción para los clientes. Asimismo, también hay un botón que redirige a cada página oficial de los hoteles.
