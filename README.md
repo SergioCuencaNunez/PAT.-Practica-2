@@ -1,4 +1,4 @@
-# Práctica 2. Creación de página web en HTML Puro
+# Práctica 2. Creación de página web en HTML Puro  
 
 
 ### Página principal: ``index.html``
